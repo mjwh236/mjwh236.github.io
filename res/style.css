@@ -1,1 +1,65 @@
 
+body {
+    background-color: #111111;
+    text-align: center;
+    color: #f2f2f2;
+    position: relative;
+}
+
+footer {
+
+}
+
+a {
+    color:#f2f2f2;
+}
+
+i {
+    color:#f2f2f2;
+    font-size: 2.5em;
+}
+
+.home {
+    background-color: #333;
+    padding: 0;
+}
+
+.about {
+
+}
+
+.resume {
+    background-color: #333;
+
+}
+
+.projects {
+
+}
+
+.contact {
+    background-color: #333;
+}
+
+.social a{
+    display: inline-block;
+    padding: 2%;
+}
+
+.topnav {
+    overflow: hidden;
+    align-items: center;
+    padding: 0;
+}
+
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #2b2b2b;
+}
