@@ -24,10 +24,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 6px;
 }
 
-footer {
-
-}
-
 a {
     color:#f2f2f2;
 }
@@ -51,19 +47,17 @@ button {
 }
 
 p {
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: slidein;
 }
 
 @keyframes slidein {
     from {
-        margin-left: 100%;
-        width: 300%;
+        opacity: 0%;
     }
 
     to {
-        margin-left: 0%;
-        width: 100%;
+        opacity: 100%;
     }
 }
 
